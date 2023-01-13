@@ -133,7 +133,7 @@ if [ -n "$CHANGES" -a "$VERSION" != "$latest" ]; then
         CHANGESURL="${CHANGESURL}main"
     else
         # Fall back on the main commit log
-        CHANGESURL='https://github.com/myelin/crouton/commits/'
+        CHANGESURL='https://github.com/RodrigoSevillano/crouton/commits/'
     fi
     # One of these will probably work...
     for x in exo-open gnome-open kde-open xdg-open \
