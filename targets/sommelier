@@ -36,9 +36,9 @@ build_sommelier() {
       libxfont-dev libxkbfile-dev x11proto-dev xfonts-utils xutils-dev \
       libbsd-dev libffi-dev libglvnd-dev libx11-dev libx11-xcb-dev \
       libxcb1-dev libxcb-dri2-0-dev libxcb-dri3-dev libxcb-glx0-dev \
-      libxcb-present-dev libxcb-shm0-dev libxdamage-dev libexpat-dev \
-      libxext-dev libxrandr-dev libxshmfence-dev libxxf86vm-dev libz-dev \
-      llvm-9 wayland-protocols libgl1-mesa-dri libnvidia-egl-wayland-dev \
+      libxcb-present-dev libxcb-shm0-dev libxdamage-dev libexpat1-dev \
+      libxext-dev libxrandr-dev libxshmfence-dev libxxf86vm-dev zlib1g-dev \
+      wayland-protocols libgl1-mesa-dri libnvidia-egl-wayland-dev \
       libxcb-xinput-dev libxcb-damage0-dev libxcb-composite0-dev \
       libxkbcommon-dev mesa-utils xwayland libwayland-bin \
       libdrm-dev libgbm-dev libgcrypt20-dev libgpg-error-dev libpciaccess-dev \
